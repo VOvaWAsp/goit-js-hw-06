@@ -6,5 +6,6 @@ nameInput.addEventListener("input", (event) => {
     return output.textContent = "Anonymous";
 }
     output.textContent = event.currentTarget.value;
+    
     })
 
