@@ -13,6 +13,11 @@ function handleRegist(event) {
         return alert("please write a text in login form")
     }
 
-    console.log(`Email: ${email}, Password: ${password}`);
+    const loginForm = {
+        email,
+        password
+    }
+    console.log("User data:", loginForm);
     form.reset()
+    return loginForm;
 }
