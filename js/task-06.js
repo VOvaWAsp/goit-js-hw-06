@@ -10,6 +10,5 @@ input.addEventListener('blur', () => {
   } else {
     input.classList.remove('valid');
     input.classList.add('invalid');
-    input.value = "";
   }
 });
